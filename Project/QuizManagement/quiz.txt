@@ -1,0 +1,35 @@
+TCP is ?
+1. Relaible Connection. (Correct)
+2. Unrelaible Connection
+3. Error connection
+4. Lossy Connection
+
+
+what is UDP stands for ?
+1. User Dynamic Project
+2. Usability Display Process
+3. User DataGram Protocol (Correct)
+4. none
+
+
+First network is made by ?
+1. Russia
+2. China
+3. Pakistan
+4. USA (Correct)
+
+
+IPv4 is total of how many bits ?
+1. 8
+2. 32 (Correct)
+3. 16
+4. 128
+
+
+every octate in ipv4 can contain numbers from range ?
+1. 1 - 255
+2. 1 - 256
+3. 0 - 255 (Correct)
+4. 0 - 256
+
+
