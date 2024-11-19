@@ -6,13 +6,14 @@ import EligibilityFilter.EligibilityFilter;
 import PaymentFilter.PaymentFilter;
 import ServicesAvalingFilter.ServicesAvalingFilter;
 import java.io.*;
+import java.util.Random;
 
 public class MainClass {
     public static void main(String[] args) {
         Subject subject = new Subject();
 
         // Read student data from file and attach to subject
-        try (BufferedReader br = new BufferedReader(new FileReader("C://AA--TAIFOOR FARID SIDDIQUI//5th Semester//SDA//MidLab//HostelSystem//Data.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("C://AA--TAIFOOR FARID SIDDIQUI//5th Semester//SDA//SoftwareDesignAndArchitecture//LABS//Lab-Exam_1_Solution//HostelSystem//Data.txt"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 // Skip empty lines
@@ -38,6 +39,13 @@ public class MainClass {
         // Call filters and service allocation
         EligibilityFilter eligibilityFilter = new EligibilityFilter();
         eligibilityFilter.filterStudentsByDistance(subject);
+        
+        Random random = new Random();
+        for(Student s : subject.getStudents()) {
+            if (random.nextInt(2) == 1) {
+                s.setFeeSubmitted();
+            }
+        }
 
         PaymentFilter paymentFilter = new PaymentFilter();
         paymentFilter.filterStudentsByFee(subject);

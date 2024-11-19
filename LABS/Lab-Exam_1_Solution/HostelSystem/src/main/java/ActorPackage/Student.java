@@ -27,6 +27,10 @@ public class Student implements Observer
         this.stdId = stdId;
         this.std_name = std_name;
     }
+    
+    public void setFeeSubmitted() {
+        this.freeSubmitted = true;
+    }
         
     public String getStdId() {
         return stdId;
