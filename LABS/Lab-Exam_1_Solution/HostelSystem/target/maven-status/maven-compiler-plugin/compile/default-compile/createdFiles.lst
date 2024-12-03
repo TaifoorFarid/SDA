@@ -3,5 +3,7 @@ ActorPackage\Subject.class
 EligibilityFilter\EligibilityFilter.class
 PaymentFilter\PaymentFilter.class
 ServicesAvalingFilter\ServicesAvalingFilter.class
+ActorPackage\PeerToPeerClient.class
 ActorPackage\Student.class
 MainPackage\MainClass.class
+ActorPackage\PeerToPeerServer.class

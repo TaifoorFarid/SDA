@@ -1,0 +1,7 @@
+How many bits are there in ipv4 ?
+1. 32 (Correct)
+2. 64
+3. 16
+4. 8
+
+
