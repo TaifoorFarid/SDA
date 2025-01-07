@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BudgetCalculation/BudgetCalculation.iml" filepath="$PROJECT_DIR$/BudgetCalculation/BudgetCalculation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShopAssistance.iml" filepath="$PROJECT_DIR$/ShopAssistance.iml" />
+    </modules>
+  </component>
+</project>
